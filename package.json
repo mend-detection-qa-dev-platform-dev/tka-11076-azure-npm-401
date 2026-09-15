@@ -1,0 +1,7 @@
+{
+  "name": "tka-11076-azure-npm-401",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Repro probe for TKA-11076: Azure Artifacts npm host-rule credentials rejected by pnpm (ERR_PNPM_FETCH_401)",
+  "packageManager": "pnpm@10.11.0"
+}

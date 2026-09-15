@@ -1,0 +1,23 @@
+{
+  "base_config": {
+    "validate_scan_output": true,
+    "scan_output": {},
+    "validate_dependency_tree": true,
+    "dependency_tree": {
+      "check_dependency_tree_detection_status": true,
+      "check_update_request_sca_results": true,
+      "expected_total_dependencies_number": {"gte": 3},
+      "direct_dependencies_names_list_group_id": {"contains": ["@types/react", "lodash"]},
+      "transitive_dependencies_names_list_group_id": {"contains": ["csstype"]},
+      "expected_package_managers": {"contains": ["pnpm"]}
+    },
+    "validate_scanner_logs": true,
+    "logs": {
+      "check_scanner_logs": true,
+      "detect_secrets": false,
+      "expected_log_lines": [
+        {"operator": "ne", "value": "ERR_PNPM_FETCH_401"}
+      ]
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "@tka11076/app",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@types/react": "19.2.18",
+    "lodash": "4.17.21"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "scanSettings": {
+    "configMode": "AUTO",
+    "baseBranches": []
+  },
+  "checkRunSettings": {
+    "vulnerableCheckRunConclusionLevel": "failure",
+    "displayMode": "diff",
+    "useMendCheckNames": true
+  }
+}
